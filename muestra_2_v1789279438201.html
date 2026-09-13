@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=League+Spartan:wght@400;600;700;800;900&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { margin: 0; padding: 0; background-color: #000; }
+  .canvas {
+    width: 1080px;
+    height: 1350px;
+    background-color: #F4EEE8;
+    position: relative;
+    overflow: hidden;
+    padding: 64px 72px;
+    font-family: 'DM Sans', sans-serif;
+    color: #171310;
+  }
+  .header-brand {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+  .brand-pill {
+    background-color: #171310;
+    color: #F4EEE8;
+    padding: 12px 32px 12px 110px;
+    border-radius: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .brand-name {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #F4EEE8;
+    white-space: nowrap;
+  }
+  .headline-container {
+    margin-bottom: 26px;
+  }
+  .headline-line-1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 1.15;
+    color: #171310;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .headline-line-2 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 1.15;
+    color: #171310;
+    text-transform: uppercase;
+  }
+  .gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 936px;
+    height: 570px;
+    margin-bottom: 28px;
+    gap: 18px;
+  }
+  .gallery-col {
+    flex: 1;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 14px 36px rgba(23, 19, 16, 0.14);
+    border: 1px solid rgba(23, 19, 16, 0.08);
+  }
+  .gallery-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .programs-row {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #171310;
+    text-align: center;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+  .location-row {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #6E635C;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cta-container {
+    display: flex;
+    justify-content: center;
+  }
+  .cta-button {
+    background-color: #8E2846;
+    color: #F4EEE8;
+    padding: 22px 80px;
+    border-radius: 14px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+    box-shadow: 0 12px 28px rgba(142, 40, 70, 0.35);
+  }
+</style>
+</head>
+<body>
+  <div data-document-role="page" data-label="FPV Muestra 02 Comercial" class="canvas">
+    <div class="header-brand">
+      <div class="brand-pill">
+        <span class="brand-name">FOTOPOSEVMAKEUP</span>
+      </div>
+    </div>
+    <div class="headline-container">
+      <div class="headline-line-1">¿QUÉ CURSO</div>
+      <div class="headline-line-2">VA CONTIGO?</div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-col">
+        <img src="https://raw.githubusercontent.com/fpvredessociales-dev/fpv-assets-cdn/main/IMG_0852-.jpg" alt="Look Editorial Glam">
+      </div>
+      <div class="gallery-col">
+        <img src="https://raw.githubusercontent.com/fpvredessociales-dev/fpv-assets-cdn/main/IMG_0903-.jpg" alt="Look Social Novia">
+      </div>
+      <div class="gallery-col">
+        <img src="https://raw.githubusercontent.com/fpvredessociales-dev/fpv-assets-cdn/main/IMG_0940-.jpg" alt="Look Artistico Dramatic">
+      </div>
+    </div>
+    <div class="programs-row">Automaquillaje · Básico Profesional · Diplomado</div>
+    <div class="location-row">Santa Mónica, Caracas</div>
+    <div class="cta-container">
+      <div class="cta-button">COMENTA INFORMACION</div>
+    </div>
+  </div>
+</body>
+</html>
